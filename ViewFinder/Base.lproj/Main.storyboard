@@ -34,15 +34,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="ViewFinder" id="W8H-f4-osH">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="WuM-Ih-pZm">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="FjQ-dM-AFN">
-                                <rect key="frame" x="302" y="0.0" width="92" height="44"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <state key="normal" title="+"/>
-                            </button>
+                        <barButtonItem key="rightBarButtonItem" title="+" id="zvU-1H-vxT">
                             <connections>
-                                <segue destination="AXA-gg-XYz" kind="show" id="sWd-bf-pMq"/>
+                                <segue destination="AXA-gg-XYz" kind="show" id="I3w-Kx-lql"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
