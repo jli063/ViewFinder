@@ -48,7 +48,7 @@
         <!--Add New Photo-->
         <scene sceneID="UEG-fC-0u2">
             <objects>
-                <viewController title="Add New Photo" id="AXA-gg-XYz" sceneMemberID="viewController">
+                <viewController title="Add New Photo" id="AXA-gg-XYz" customClass="AddPhotoViewController" customModule="ViewFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="t7z-0v-WsX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -62,12 +62,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <state key="normal" title="Camera"/>
+                                <connections>
+                                    <action selector="takePhoto:" destination="AXA-gg-XYz" eventType="touchUpInside" id="KG5-QA-YZm"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0RI-UD-Tls">
                                 <rect key="frame" x="269" y="612" width="92" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <state key="normal" title="Album"/>
+                                <connections>
+                                    <action selector="chooseAlbum:" destination="AXA-gg-XYz" eventType="touchUpInside" id="KTc-Cc-CDc"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VAJ-mF-HWK">
                                 <rect key="frame" x="47" y="612" width="92" height="64"/>
@@ -80,11 +86,17 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <state key="normal" title="Photo Library"/>
+                                <connections>
+                                    <action selector="chooseLibrary:" destination="AXA-gg-XYz" eventType="touchUpInside" id="Jo8-tS-pGa"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="Whk-qp-A0n"/>
                     </view>
+                    <connections>
+                        <outlet property="newImage" destination="Tll-KO-b0J" id="sy6-AC-vnS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2rR-sk-9XE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

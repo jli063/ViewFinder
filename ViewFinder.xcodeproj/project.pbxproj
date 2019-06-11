@@ -12,6 +12,7 @@
 		18EDDAFB22AEFB2300CEEA16 /* ViewFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18EDDAF922AEFB2300CEEA16 /* ViewFinder.xcdatamodeld */; };
 		18EDDAFD22AEFB2500CEEA16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EDDAFC22AEFB2500CEEA16 /* Assets.xcassets */; };
 		18EDDB0022AEFB2500CEEA16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EDDAFE22AEFB2500CEEA16 /* LaunchScreen.storyboard */; };
+		18EDDB2622B0485100CEEA16 /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EDDB2522B0485100CEEA16 /* AddPhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		18EDDAFC22AEFB2500CEEA16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18EDDAFF22AEFB2500CEEA16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18EDDB0122AEFB2500CEEA16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18EDDB2522B0485100CEEA16 /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		18EDDAF122AEFB2300CEEA16 /* ViewFinder */ = {
 			isa = PBXGroup;
 			children = (
+				18EDDB2522B0485100CEEA16 /* AddPhotoViewController.swift */,
 				18EDDAF222AEFB2300CEEA16 /* AppDelegate.swift */,
 				18EDDAF622AEFB2300CEEA16 /* Main.storyboard */,
 				18EDDAFC22AEFB2500CEEA16 /* Assets.xcassets */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18EDDAFB22AEFB2300CEEA16 /* ViewFinder.xcdatamodeld in Sources */,
+				18EDDB2622B0485100CEEA16 /* AddPhotoViewController.swift in Sources */,
 				18EDDAF322AEFB2300CEEA16 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2B725GNJW;
 				INFOPLIST_FILE = ViewFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,6 +305,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z2B725GNJW;
 				INFOPLIST_FILE = ViewFinder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
