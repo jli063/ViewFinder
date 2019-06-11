@@ -13,6 +13,7 @@
 		18EDDAFD22AEFB2500CEEA16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EDDAFC22AEFB2500CEEA16 /* Assets.xcassets */; };
 		18EDDB0022AEFB2500CEEA16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EDDAFE22AEFB2500CEEA16 /* LaunchScreen.storyboard */; };
 		18EDDB2622B0485100CEEA16 /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EDDB2522B0485100CEEA16 /* AddPhotoViewController.swift */; };
+		18EDDB2822B0551800CEEA16 /* PhotoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EDDB2722B0551800CEEA16 /* PhotoTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		18EDDAFF22AEFB2500CEEA16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18EDDB0122AEFB2500CEEA16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18EDDB2522B0485100CEEA16 /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
+		18EDDB2722B0551800CEEA16 /* PhotoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				18EDDB2522B0485100CEEA16 /* AddPhotoViewController.swift */,
 				18EDDAF222AEFB2300CEEA16 /* AppDelegate.swift */,
 				18EDDAF622AEFB2300CEEA16 /* Main.storyboard */,
+				18EDDB2722B0551800CEEA16 /* PhotoTableViewController.swift */,
 				18EDDAFC22AEFB2500CEEA16 /* Assets.xcassets */,
 				18EDDAFE22AEFB2500CEEA16 /* LaunchScreen.storyboard */,
 				18EDDB0122AEFB2500CEEA16 /* Info.plist */,
@@ -140,6 +143,7 @@
 			files = (
 				18EDDAFB22AEFB2300CEEA16 /* ViewFinder.xcdatamodeld in Sources */,
 				18EDDB2622B0485100CEEA16 /* AddPhotoViewController.swift in Sources */,
+				18EDDB2822B0551800CEEA16 /* PhotoTableViewController.swift in Sources */,
 				18EDDAF322AEFB2300CEEA16 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
