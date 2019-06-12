@@ -80,6 +80,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <state key="normal" title="Save"/>
+                                <connections>
+                                    <action selector="savePhoto:" destination="AXA-gg-XYz" eventType="touchUpInside" id="XlE-eE-Xp8"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fG0-Dz-Jw4">
                                 <rect key="frame" x="238" y="393" width="155" height="45"/>
@@ -90,11 +93,19 @@
                                     <action selector="chooseLibrary:" destination="AXA-gg-XYz" eventType="touchUpInside" id="Jo8-tS-pGa"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p2x-VV-Yz7">
+                                <rect key="frame" x="113" y="331" width="181" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.80205995880000003" green="1" blue="0.92341203409999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="Whk-qp-A0n"/>
                     </view>
                     <connections>
+                        <outlet property="captionText" destination="p2x-VV-Yz7" id="eJ9-EC-mbn"/>
                         <outlet property="newImage" destination="Tll-KO-b0J" id="sy6-AC-vnS"/>
                     </connections>
                 </viewController>
